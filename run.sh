@@ -1,8 +1,8 @@
 #!/bin/bash
-GITHUB_USERNAME=Melanie-Marques
+GITHUB_USERNAME=Mellanie-Marques
 GITHUB_EMAIL=mellaniemarques9@gmail.com
 
-SERVICE_NAME=payment
+SERVICE_NAME=order
 RELEASE_VERSION=v1.2.3
 
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest 
