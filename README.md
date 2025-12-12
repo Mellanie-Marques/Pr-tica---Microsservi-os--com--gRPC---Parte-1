@@ -2,32 +2,6 @@
 
 Este projeto demonstra a implementação de um microsserviço de pedidos (orders) utilizando gRPC em Go, com persistência em MySQL.
 
-## Estrutura do Projeto
-
-```
-.
-├── microservices/
-│   └── order/
-│       ├── cmd/main.go              # Ponto de entrada do servidor
-│       ├── client/main.go           # Cliente de teste
-│       ├── config/config.go         # Configurações do ambiente
-│       ├── docker-compose.yml       # Configuração do banco MySQL
-│       ├── internal/
-│       │   ├── adapter/
-│       │   │   ├── db/db.go         # Adaptador do banco de dados
-│       │   │   └── grpc/server.go   # Servidor gRPC
-│       │   └── application/
-│       │       └── core/
-│       │           ├── api/api.go   # Lógica de negócio
-│       │           └── domain/      # Entidades de domínio
-│       └── run_server.bat          # Script para executar o servidor
-├── microservices-proto/
-│   └── order/
-│       ├── order.proto              # Definição do serviço gRPC
-│       └── golang/                  # Código gerado do protobuf
-└── run.sh                           # Script para gerar código protobuf
-```
-
 ## Pré-requisitos
 
 - Go 1.19 ou superior
